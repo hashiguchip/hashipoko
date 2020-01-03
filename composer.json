@@ -1,0 +1,30 @@
+{
+    "name": "hashgiuchip/hashipoko",
+    "authors": [
+        {
+            "name": "hashiguchip",
+            "email": "hashiguchip@gmail.com"
+        }
+    ],
+    "config": {
+        "platform": {
+            "php": "5.4.16"
+        }
+    },
+    "files": [
+        "app/classes/core/helper.php"
+    ],
+    "require": {
+        "illuminate/database": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\classes\\": "app/classes/",
+            "core\\": "app/classes/core/",
+            "util\\": "app/classes/util/",
+            "Controllers\\": "app/Controllers/",
+            "tasks\\": "app/Controllers/tasks/",
+            "Models\\": "app/Models/"
+        }
+    }
+}
